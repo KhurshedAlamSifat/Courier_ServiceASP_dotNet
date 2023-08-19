@@ -52,13 +52,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="Migrations\202308190454561_AddedTwoTables.cs" />
-    <Compile Include="Migrations\202308190454561_AddedTwoTables.designer.cs">
-      <DependentUpon>202308190454561_AddedTwoTables.cs</DependentUpon>
+    <Compile Include="Migrations\202308191314270_AddedAllTable.cs" />
+    <Compile Include="Migrations\202308191314270_AddedAllTable.designer.cs">
+      <DependentUpon>202308191314270_AddedAllTable.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\CScontext.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Delivery.cs" />
+    <Compile Include="Models\Driver.cs" />
     <Compile Include="Models\Parcel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -70,8 +72,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202308190454561_AddedTwoTables.resx">
-      <DependentUpon>202308190454561_AddedTwoTables.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202308191314270_AddedAllTable.resx">
+      <DependentUpon>202308191314270_AddedAllTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

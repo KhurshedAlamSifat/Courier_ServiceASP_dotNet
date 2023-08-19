@@ -30,5 +30,12 @@ namespace DAL.Models
         public string TrackingNumber { get; set; }
 
         public virtual Customer Customer { get; set; }
+
+        public virtual ICollection<Delivery> Deliveries { get; set; }
+
+        public Parcel() 
+        {
+            Deliveries = new List<Delivery>();
+        }
     }
 }

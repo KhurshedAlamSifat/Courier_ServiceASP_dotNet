@@ -11,5 +11,7 @@ namespace DAL.Models
     {
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Parcel> Parcels { get; set; }
+        public DbSet<Driver> Drivers { get; set; }
+        public DbSet<Delivery> Deliveries { get; set; }
     }
 }
